@@ -29,9 +29,15 @@ Si PowerShell bloquea la activacion, ejecuta la aplicacion directamente con el i
 
 ## Ejecucion
 
+### Desde PowerShell
+
 ```powershell
 .\.venv\Scripts\python.exe main.py
 ```
+
+### Desde Windows
+
+Haga doble clic en `Ejecutar app.bat`. El lanzador utiliza el entorno virtual `.venv` y abre directamente la ventana grafica del sistema experto.
 
 Al iniciar, el programa:
 
